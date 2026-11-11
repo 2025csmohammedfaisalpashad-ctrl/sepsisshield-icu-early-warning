@@ -1,0 +1,16 @@
+{
+  "input_file": "/Users/mohammedfaisalpasha/Downloads/SepsisShield_NIErnaya_Phase2/data/Dataset.csv",
+  "original_rows": 1552210,
+  "original_columns": 44,
+  "output_rows": 1552210,
+  "output_columns": 43,
+  "patients": 40336,
+  "removed_columns": [
+    "Unnamed: 0"
+  ],
+  "exact_duplicate_rows_before": 0,
+  "duplicate_patient_hour_before": 0,
+  "nonconsecutive_hour_gaps_after": 0,
+  "missing_values_preserved": 43512155,
+  "output_file": "/Users/mohammedfaisalpasha/Downloads/SepsisShield_NIErnaya_Phase2/outputs/02_preprocessing/cleaned_dataset.csv.gz"
+}

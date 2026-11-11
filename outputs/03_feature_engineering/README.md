@@ -1,0 +1,1 @@
+Run `notebooks/03_Person3_Feature_Engineering.ipynb` after Person 2's notebook. It generates the full-data engineered dataset, feature dictionary, feature-quality, correlation, mutual-information, PCA and leakage-audit outputs in this directory. No sample-run outputs are included here.

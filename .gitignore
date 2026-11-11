@@ -1,0 +1,6 @@
+
+# Large datasets - do not upload to GitHub
+data/Dataset.csv
+data/.ipynb_checkpoints/
+.ipynb_checkpoints/
+outputs/**/*.csv.gz

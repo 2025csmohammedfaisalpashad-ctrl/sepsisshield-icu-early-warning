@@ -1,0 +1,5 @@
+Dataset.csv is the original CSV uploaded by the project team in this conversation.
+It is included unchanged; notebooks create separate working copies and outputs.
+SHA-256: 4aed6e2689f587b152679f6408e94ef933dda99c29d991adb8195b7de90749a6
+Source family: PhysioNet / Computing in Cardiology Challenge 2019.
+Official page: https://physionet.org/content/challenge-2019/1.0.0/

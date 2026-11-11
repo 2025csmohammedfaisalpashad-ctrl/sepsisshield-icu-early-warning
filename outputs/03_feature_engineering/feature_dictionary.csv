@@ -1,0 +1,57 @@
+feature,source_variable,feature_type,definition,uses_future_data,computed_within_patient
+HR_lag_1,HR,lag_1,Value from the previous consecutive Hour for the same patient.,False,True
+HR_lag_3,HR,lag_3,"Value from three Hours earlier for the same patient, requiring the three-hour span.",False,True
+HR_change_1,HR,change_1,Current value minus previous consecutive-hour value.,False,True
+HR_roll_mean_3,HR,roll_mean_3,Mean of current and previous two consecutive observations; at least two non-missing values.,False,True
+HR_roll_mean_6,HR,roll_mean_6,Mean of current and previous five consecutive observations; at least three non-missing values.,False,True
+HR_roll_std_6,HR,roll_std_6,Sample standard deviation across current and previous five consecutive observations; at least three non-missing values.,False,True
+HR_missing_now,HR,missing_now,"1 if the current measurement is missing, otherwise 0.",False,True
+HR_missing_count_6,HR,missing_count_6,Number of missing measurements in current and previous five consecutive observations; NaN if window is not consecutive.,False,True
+O2Sat_lag_1,O2Sat,lag_1,Value from the previous consecutive Hour for the same patient.,False,True
+O2Sat_lag_3,O2Sat,lag_3,"Value from three Hours earlier for the same patient, requiring the three-hour span.",False,True
+O2Sat_change_1,O2Sat,change_1,Current value minus previous consecutive-hour value.,False,True
+O2Sat_roll_mean_3,O2Sat,roll_mean_3,Mean of current and previous two consecutive observations; at least two non-missing values.,False,True
+O2Sat_roll_mean_6,O2Sat,roll_mean_6,Mean of current and previous five consecutive observations; at least three non-missing values.,False,True
+O2Sat_roll_std_6,O2Sat,roll_std_6,Sample standard deviation across current and previous five consecutive observations; at least three non-missing values.,False,True
+O2Sat_missing_now,O2Sat,missing_now,"1 if the current measurement is missing, otherwise 0.",False,True
+O2Sat_missing_count_6,O2Sat,missing_count_6,Number of missing measurements in current and previous five consecutive observations; NaN if window is not consecutive.,False,True
+Temp_lag_1,Temp,lag_1,Value from the previous consecutive Hour for the same patient.,False,True
+Temp_lag_3,Temp,lag_3,"Value from three Hours earlier for the same patient, requiring the three-hour span.",False,True
+Temp_change_1,Temp,change_1,Current value minus previous consecutive-hour value.,False,True
+Temp_roll_mean_3,Temp,roll_mean_3,Mean of current and previous two consecutive observations; at least two non-missing values.,False,True
+Temp_roll_mean_6,Temp,roll_mean_6,Mean of current and previous five consecutive observations; at least three non-missing values.,False,True
+Temp_roll_std_6,Temp,roll_std_6,Sample standard deviation across current and previous five consecutive observations; at least three non-missing values.,False,True
+Temp_missing_now,Temp,missing_now,"1 if the current measurement is missing, otherwise 0.",False,True
+Temp_missing_count_6,Temp,missing_count_6,Number of missing measurements in current and previous five consecutive observations; NaN if window is not consecutive.,False,True
+MAP_lag_1,MAP,lag_1,Value from the previous consecutive Hour for the same patient.,False,True
+MAP_lag_3,MAP,lag_3,"Value from three Hours earlier for the same patient, requiring the three-hour span.",False,True
+MAP_change_1,MAP,change_1,Current value minus previous consecutive-hour value.,False,True
+MAP_roll_mean_3,MAP,roll_mean_3,Mean of current and previous two consecutive observations; at least two non-missing values.,False,True
+MAP_roll_mean_6,MAP,roll_mean_6,Mean of current and previous five consecutive observations; at least three non-missing values.,False,True
+MAP_roll_std_6,MAP,roll_std_6,Sample standard deviation across current and previous five consecutive observations; at least three non-missing values.,False,True
+MAP_missing_now,MAP,missing_now,"1 if the current measurement is missing, otherwise 0.",False,True
+MAP_missing_count_6,MAP,missing_count_6,Number of missing measurements in current and previous five consecutive observations; NaN if window is not consecutive.,False,True
+SBP_lag_1,SBP,lag_1,Value from the previous consecutive Hour for the same patient.,False,True
+SBP_lag_3,SBP,lag_3,"Value from three Hours earlier for the same patient, requiring the three-hour span.",False,True
+SBP_change_1,SBP,change_1,Current value minus previous consecutive-hour value.,False,True
+SBP_roll_mean_3,SBP,roll_mean_3,Mean of current and previous two consecutive observations; at least two non-missing values.,False,True
+SBP_roll_mean_6,SBP,roll_mean_6,Mean of current and previous five consecutive observations; at least three non-missing values.,False,True
+SBP_roll_std_6,SBP,roll_std_6,Sample standard deviation across current and previous five consecutive observations; at least three non-missing values.,False,True
+SBP_missing_now,SBP,missing_now,"1 if the current measurement is missing, otherwise 0.",False,True
+SBP_missing_count_6,SBP,missing_count_6,Number of missing measurements in current and previous five consecutive observations; NaN if window is not consecutive.,False,True
+DBP_lag_1,DBP,lag_1,Value from the previous consecutive Hour for the same patient.,False,True
+DBP_lag_3,DBP,lag_3,"Value from three Hours earlier for the same patient, requiring the three-hour span.",False,True
+DBP_change_1,DBP,change_1,Current value minus previous consecutive-hour value.,False,True
+DBP_roll_mean_3,DBP,roll_mean_3,Mean of current and previous two consecutive observations; at least two non-missing values.,False,True
+DBP_roll_mean_6,DBP,roll_mean_6,Mean of current and previous five consecutive observations; at least three non-missing values.,False,True
+DBP_roll_std_6,DBP,roll_std_6,Sample standard deviation across current and previous five consecutive observations; at least three non-missing values.,False,True
+DBP_missing_now,DBP,missing_now,"1 if the current measurement is missing, otherwise 0.",False,True
+DBP_missing_count_6,DBP,missing_count_6,Number of missing measurements in current and previous five consecutive observations; NaN if window is not consecutive.,False,True
+Resp_lag_1,Resp,lag_1,Value from the previous consecutive Hour for the same patient.,False,True
+Resp_lag_3,Resp,lag_3,"Value from three Hours earlier for the same patient, requiring the three-hour span.",False,True
+Resp_change_1,Resp,change_1,Current value minus previous consecutive-hour value.,False,True
+Resp_roll_mean_3,Resp,roll_mean_3,Mean of current and previous two consecutive observations; at least two non-missing values.,False,True
+Resp_roll_mean_6,Resp,roll_mean_6,Mean of current and previous five consecutive observations; at least three non-missing values.,False,True
+Resp_roll_std_6,Resp,roll_std_6,Sample standard deviation across current and previous five consecutive observations; at least three non-missing values.,False,True
+Resp_missing_now,Resp,missing_now,"1 if the current measurement is missing, otherwise 0.",False,True
+Resp_missing_count_6,Resp,missing_count_6,Number of missing measurements in current and previous five consecutive observations; NaN if window is not consecutive.,False,True

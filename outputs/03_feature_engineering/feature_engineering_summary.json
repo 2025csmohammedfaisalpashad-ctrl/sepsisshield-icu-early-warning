@@ -1,0 +1,23 @@
+{
+  "input_path": "/Users/mohammedfaisalpasha/Downloads/SepsisShield_NIErnaya_Phase2/outputs/02_preprocessing/cleaned_dataset.csv.gz",
+  "input_rows": 1552210,
+  "input_columns": 43,
+  "engineered_rows": 1552210,
+  "engineered_columns": 99,
+  "new_temporal_features": 56,
+  "selected_vitals": [
+    "HR",
+    "O2Sat",
+    "Temp",
+    "MAP",
+    "SBP",
+    "DBP",
+    "Resp"
+  ],
+  "patients": 40336,
+  "training_patients": 32268,
+  "test_patients": 8068,
+  "training_rows": 1240596,
+  "test_rows": 311614,
+  "engineered_dataset_path": "/Users/mohammedfaisalpasha/Downloads/SepsisShield_NIErnaya_Phase2/outputs/03_feature_engineering/feature_engineered_dataset.csv.gz"
+}

@@ -1,0 +1,56 @@
+{
+  "rows": 1552210,
+  "columns_after_index_check": 43,
+  "unique_patients": 40336,
+  "positive_hourly_labels": 27916,
+  "positive_hourly_pct": 1.798467990800214,
+  "positive_patients": 2932,
+  "positive_patient_pct": 7.268940896469656,
+  "median_rows_per_patient": 38.0,
+  "mean_rows_per_patient": 38.48200119000396,
+  "exact_duplicates": 0,
+  "duplicate_patient_hour": 0,
+  "nonconsecutive_hour_gaps": 0,
+  "top_missing_features": {
+    "Bilirubin_direct": {
+      "missing_count": 1549220,
+      "missing_pct": 99.80737142525818
+    },
+    "Fibrinogen": {
+      "missing_count": 1541968,
+      "missing_pct": 99.34016660116866
+    },
+    "TroponinI": {
+      "missing_count": 1537429,
+      "missing_pct": 99.04774482834152
+    },
+    "Bilirubin_total": {
+      "missing_count": 1529069,
+      "missing_pct": 98.5091579103343
+    },
+    "Alkalinephos": {
+      "missing_count": 1527269,
+      "missing_pct": 98.39319421985428
+    },
+    "AST": {
+      "missing_count": 1527027,
+      "missing_pct": 98.37760354591197
+    },
+    "Lactate": {
+      "missing_count": 1510764,
+      "missing_pct": 97.32987160242493
+    },
+    "PTT": {
+      "missing_count": 1506511,
+      "missing_pct": 97.05587517152962
+    },
+    "SaO2": {
+      "missing_count": 1498649,
+      "missing_pct": 96.54937154122187
+    },
+    "EtCO2": {
+      "missing_count": 1494574,
+      "missing_pct": 96.2868426308296
+    }
+  }
+}
